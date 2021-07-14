@@ -1,0 +1,31 @@
+Proceso Eje_2
+	Definir  n Como Entero ;
+	Escribir  "Por fiestas patrias se le otorga una gratificación" 
+	Escribir  "1 Gerente"
+	Escribir  "2 secretaria"
+	Escribir  "3 Técnico de TI"
+	Escribir  "4 esarrollador"
+	Escribir  "5 Contador"
+	Escribir  "Por favor ingres su numero asignado"
+	Leer  n
+	Segun  n Hacer
+		1 :
+			resul  =  4.000  + ( 4.000 * 15 / 100 )
+			Escribir  "Gerente su proxmimo pago sera"  resul
+		2 :
+			resul  =  1.800  + ( 1.800 * 20 / 100 )
+			Escribir   "secretaria su proxmimo pago sera"  resul
+		3 :
+			resul  =  1.500  + ( 1.500 * 18 / 100 )
+			Escribir  "Técnico de TI su proxmimo pago sera"  resul
+		4 :
+			resul  =  3.000 + (3.000 * 10/100)
+			Escribir  "Desarrollador su proxmimo pago sera"  resul
+		5 :
+			resul  =  2.500 + (2.500 * 12/100)
+			Escribir  "Contador su proxmimo pago sera"  resul
+			
+		De  Otro Modo:
+			Escribir  "Error nomgol detectado"
+	FinSegun
+FinProceso 
